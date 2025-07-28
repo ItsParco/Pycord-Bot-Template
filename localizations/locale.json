@@ -1,0 +1,24 @@
+{
+    "commands": {
+        "purge": {
+            "name": {
+                "en-US": "purge",
+                "en-GB": "purge",
+                "zh-TW": "訊息清除",
+                "zh-CN": "清除消息"
+            },
+            "description": {
+                "en-US": "Quickly delete messages",
+                "en-GB": "Quickly delete messages",
+                "zh-TW": "快速刪除大量訊息",
+                "zh-CN": "快速删除大量消息"
+            },
+            "response.success_message": {
+                "en-US": "Deleted `{}/{}` messages",
+                "en-GB": "Deleted `{}/{}` messages",
+                "zh-TW": "已清除 `{}/{}` 則訊息",
+                "zh-CN": "已删除 `{}/{}` 条消息"
+            }
+        }
+    }
+}
