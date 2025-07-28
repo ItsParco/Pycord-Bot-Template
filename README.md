@@ -3,7 +3,8 @@
 A clean and modular Discord bot template using Python and `Pycord`.  
 Designed to be scalable, maintainable, and suitable for developers who prefer modular organization.
 
----
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg?style=flat-square)]()
+[![Python](https://img.shields.io/badge/Pycord-2.6.1-blue.svg?style=flat-square)]()
 
 ## 🧩 Features
 
@@ -93,7 +94,3 @@ Then, run the bot using:
 ```bash
 python main.py
 ```
-
----
-
----
