@@ -40,7 +40,7 @@ Designed to be scalable, maintainable, and suitable for developers who prefer mo
 ├── cogs/                  # Modular command & event handlers
 │   ├── commands/
 │   │   └── moderation/    # Moderation commands
-│   │   │   └── message_clean.py
+│   │       └── message_clean.py
 │   │   └── dev.py
 │   │── events/     # Custom event handlers
 │   └── __init__.py
@@ -62,6 +62,24 @@ Designed to be scalable, maintainable, and suitable for developers who prefer mo
 ```
 
 ---
+
+## 🏗️ Views - Discord UI Components
+
+The `views/` folder contains reusable Discord UI components such as:
+
+- Buttons
+- SelectMenus
+- TextInputs
+
+This allows for centralized management and easy reuse of UI elements, improving maintainability and scalability.
+
+---
+
+## ⚙️ Cogs Auto-Loading
+
+The project features an automatic cog loader that recursively searches through the entire cogs/ directory and its subdirectories.
+
+You can exclude entire directories from being loaded by placing a special `__ignore__` file inside the folder. This provides a simple way to control which cogs are active without modifying code.
 
 ## 📦 Install Dependencies
 
