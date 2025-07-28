@@ -31,8 +31,6 @@ Designed to be scalable, maintainable, and suitable for developers who prefer mo
    > For more info:  
    > 👉 [Gateway Intents Documentation](https://discord.com/developers/docs/topics/gateway#gateway-intents)
 
----
-
 ## 🧱 Project Structure
 
 ```
@@ -61,8 +59,6 @@ Designed to be scalable, maintainable, and suitable for developers who prefer mo
 └── requirements.txt       # Python dependencies
 ```
 
----
-
 ## 🏗️ Views - Discord UI Components
 
 The `views/` folder contains reusable Discord UI components such as:
@@ -72,8 +68,6 @@ The `views/` folder contains reusable Discord UI components such as:
 - TextInputs
 
 This allows for centralized management and easy reuse of UI elements, improving maintainability and scalability.
-
----
 
 ## ⚙️ Cogs Auto-Loading
 
@@ -96,8 +90,6 @@ OR
 ```bash
 pip install -U py-cord python-dotenv
 ```
-
----
 
 ## ▶️ Run the Bot
 
