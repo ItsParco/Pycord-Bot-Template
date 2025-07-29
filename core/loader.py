@@ -1,11 +1,7 @@
 import discord
 from discord.ext import commands
 
-import logging
 import os
-
-
-logger = logging.getLogger('bot')
 
 
 def should_ignore_directory(directory: str, ignore_filename="__ignore__") -> bool:
@@ -40,6 +36,6 @@ async def load_all_extensions(bot: commands.Bot, base_path: str = "cogs"):
             bot.load_extension(ext)
             file_path = os.path.join(*ext.split(".")) + ".py"
             cog_name = ext.split(".")[-1]
-            logger.info(f"Loaded {cog_name} ({file_path})")
+            print(f"Loaded {cog_name} ({file_path})")
         except Exception as e:
-            logger.error(f"Failed to load {ext}: {e}")
+            print(f"Failed to load {ext}: {e}")
